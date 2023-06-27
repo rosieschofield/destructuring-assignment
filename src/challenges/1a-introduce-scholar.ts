@@ -5,9 +5,8 @@ interface Scholar {
 }
 
 function introduceScholar(scholar: Scholar): string {
-  // complete function
-  // use object destructuring, for practice!
-  return "fails test right now";
+  const {firstName,LastName,cohortNumber} = thisScholar
+  return "${firstName} ${lastName} is an Academy Scholar in Cohort ${cohortNumber}";
 }
 
 export default introduceScholar;
