@@ -5,8 +5,8 @@ interface Scholar {
 }
 
 function introduceScholar(scholar: Scholar): string {
-  const {firstName,lastName,cohortNumber} = scholar;
-  return "${firstName} ${lastName} is an Academy Scholar in Cohort ${cohortNumber}";
+  const { firstName, lastName, cohortNumber } = scholar;
+  return `${firstName} ${lastName} is an Academy Scholar in Cohort ${cohortNumber}`;
 }
 
 export default introduceScholar;
